@@ -3,8 +3,8 @@ title: Wakuwakuw Mobile | Slicing dev
 email: bedeute@gmail.com
 description: "Wakuwakuw is Next generation community platform"
 keywords: "Wakuwakuw, Next generation community platform, Event and Meetup Organizer"
-baseurl: "/wakuwakuw/mobile"
-url: "http://bedeute.com/wakuwakuw/mobile"
+# baseurl: "/wakuwakuw/mobile"
+url: "http://bedeute.com"
 twitter_username: bedeute
 github_username:  bedeute
 
