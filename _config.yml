@@ -4,10 +4,15 @@ email: bedeute@gmail.com
 description: "Wakuwakuw is Next generation community platform"
 keywords: "Wakuwakuw, Next generation community platform, Event and Meetup Organizer"
 baseurl: "/wakuwakuw/mobile"
-url: "http://bedeute.com"
+url: "http://bedeute.com/wakuwakuw/mobile"
 twitter_username: bedeute
 github_username:  bedeute
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+hightliter: pygments
+safe: true
+lsi: false

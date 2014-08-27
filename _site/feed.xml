@@ -3,10 +3,10 @@
   <channel>
     <title>Wakuwakuw Mobile | Slicing dev</title>
     <description>Wakuwakuw is Next generation community platform</description>
-    <link>/wakuwakuw/mobile/</link>
-    <atom:link href="/wakuwakuw/mobile/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Aug 2014 15:43:47 +0700</pubDate>
-    <lastBuildDate>Wed, 27 Aug 2014 15:43:47 +0700</lastBuildDate>
+    <link>http://bedeute.com/wakuwakuw/mobile/</link>
+    <atom:link href="http://bedeute.com/wakuwakuw/mobile/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 27 Aug 2014 15:59:28 +0700</pubDate>
+    <lastBuildDate>Wed, 27 Aug 2014 15:59:28 +0700</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Mon, 25 Aug 2014 06:57:15 +0700</pubDate>
-        <link>/wakuwakuw/mobile/jekyll/update/2014/08/25/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">/wakuwakuw/mobile/jekyll/update/2014/08/25/welcome-to-jekyll/</guid>
+        <link>http://bedeute.com/wakuwakuw/mobile/jekyll/update/2014/08/25/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://bedeute.com/wakuwakuw/mobile/jekyll/update/2014/08/25/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
