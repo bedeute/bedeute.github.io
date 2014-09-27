@@ -183,16 +183,18 @@ h3,
 h4,
 h5 {
   font-family: 'roboto slab', serif;
+  font-weight: 400;
 }
 body {
   background: #000000 url(/assets/img/bg-header.jpg) no-repeat center top;
+  font-family: sans-serif;
 }
 .ds-page-wrapper {
   margin: 0 auto;
   width: 820px;
 }
 #header {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 #header > img {
   float: left;
@@ -206,7 +208,7 @@ body {
   clear: both;
 }
 #headline {
-  margin-top: 42px;
+  margin-top: 60px;
   max-width: 384px;
   float: left;
 }
@@ -222,10 +224,19 @@ body {
 }
 #content {
   background-color: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
 }
 #content-headline {
-  padding: 24px;
+  padding: 20px 28px;
   border-bottom: 1px solid #ccc;
+}
+#content-headline > h2 {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
 }
 #content-main {
   padding: 12px;
@@ -242,9 +253,27 @@ body {
   width: 355px;
   float: left;
 }
+#content-main-left > h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#content-main-left > h3 > span {
+  color: #cd0000;
+}
 #content-main-right {
   width: 390px;
   float: right;
+}
+.list-image {
+  list-style: none;
+}
+.list-image > li {
+  background: url('/assets/img/red-cross.jpg') 0 2px;
+  background-repeat: no-repeat;
+  line-height: 20px;
+  padding-left: 26px;
+  padding-top: 6px;
+  padding-bottom: 10px;
 }
 #form-wrapper {
   background: #111;
@@ -252,6 +281,7 @@ body {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 #form-wrapper:before,
 #form-wrapper:after {
@@ -260,6 +290,9 @@ body {
 }
 #form-wrapper:after {
   clear: both;
+}
+.form-title > span {
+  color: #cd0000;
 }
 .form-group:before,
 .form-group:after {
@@ -287,4 +320,20 @@ body {
 }
 .form-btn {
   width: 100%;
+}
+#venue-wrapper {
+  background-color: #f7f7f3;
+  padding: 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+#venue-wrapper p {
+  margin-bottom: 6px;
+}
+#venue-wrapper p:last-child {
+  margin-bottom: 0;
 }
