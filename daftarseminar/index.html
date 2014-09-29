@@ -36,34 +36,34 @@ title: daftar seminar boo
 		</div>
 		<div id="content-main-right">
 			<div id="form-wrapper">
-				<form>
+				<form method="post" action="submit_to_email.php">
 					<h3 class="text-light form-title">Kesempatan terbatas <span>Daftar Segera!</span></h3>
 					<div class="form-group">
-						<label class="form-label text-light">Nama:</label>
+						<label class="form-label text-light" for:"name">Nama :</label>
 						<div class="form-control">
-							<input class="form-input" type="text" placeholder="Nama Anda">
+							<input class="form-input" name="name" type="text" placeholder="Nama Anda">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="form-label text-light">Email:</label>
+						<label class="form-label text-light" for="email">Email :</label>
 						<div class="form-control">
-							<input class="form-input" type="text" placeholder="email@anda.com">
+							<input class="form-input" type="text" name="email" placeholder="email@anda.com">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="form-label text-light">No. Telp:</label>
+						<label class="form-label text-light" for="telephone">No. Telp :</label>
 						<div class="form-control">
-							<input class="form-input" type="text" placeholder="xxx">
+							<input class="form-input" type="text" name="telephone" placeholder="xxx">
 						</div>
 					</div>
-					<div class="form-group">
-						<button type="button" class="form-btn">Ya, Saya ingin daftar sekarang!</button>
+					<div class="form-group" style="margin-top: 8px;">
+						<button type="submit" class="form-btn">Ya, Saya ingin daftar sekarang!</button>
 					</div>
 				</form>		
 			</div>
 			<div id="venue-wrapper">
 				<div id="venue-title">Venue</div>
-				<strong>SAB Indonesia Launch:</strong>
+				<h2 style="margin-bottom: 4px;">SAB Indonesia Launch:</h2>
 				<p>Tanggal: <strong>4 Oktober 2014</strong></p>
 				<p>Pukul: <strong>10:00 am - 12:30 pm</strong></p>
 				<p>Tempat di <strong>Eagle Auditorium, The Kuningan Place, Jalan Kuningan Utama Lot 15, Jakarta Selatan</strong></p>

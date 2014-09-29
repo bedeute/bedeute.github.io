@@ -154,3 +154,47 @@
     clear: both;
   }
 }
+
+
+// placeholder 
+.placeholder(@color: @input-color-placeholder) {
+  &::-moz-placeholder           { color: @color;   // Firefox
+                                  opacity: 1; } // See https://github.com/twbs/bootstrap/pull/11526
+  &:-ms-input-placeholder       { color: @color; } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: @color; } // Safari and Chrome
+}
+
+// button 
+button {
+  display: inline-block;
+  // .ie7-inline-block();
+  color: #eee;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  padding: 8px 12px 10px;
+  margin-bottom: 0; // For input.btn
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  line-height: 14px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  .vertical-gradient(#EF5A3A, #D33B1D);
+  background-color: #D33B1D;
+  border: 1px solid #AF2308;
+  *border: 0; // Remove the border to prevent IE7's black border on input:focus
+  // border-bottom-color: darken(@btnBorder, 10%);
+  .border-radius(6px);
+  // .ie7-restore-left-whitespace(); // Give IE7 some love
+  .box-shadow(~"inset 0 1px 1px rgba(255,255,255,.25), inset 0 -1px rgba(0,0,0,.15)");
+
+  // Hover state
+  &:hover {
+    text-decoration: none;
+    background: #D33B1D;
+    background-position: 0 15px;
+
+    // transition is only when going to hover, otherwise the background
+    // behind the gradient (there for IE<=9 fallback) gets mismatched
+    .transition(background .1s linear);
+  }
+}
