@@ -23,6 +23,77 @@
     }
 }
 
+.site-logo {
+
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 66px;
+    text-align: center;
+
+    > svg {
+        width: 65px;
+        height: 60px;
+
+        > path {
+            fill: $accent-color;
+        }
+    }
+}
+
+.home {
+    display: table;
+    height: 100%;
+    position: absolute;
+}
+
+.skill-text {
+    display: table-cell;
+    vertical-align: middle;
+    letter-spacing: 10px;
+    line-height: 32px;
+    font-size: 22px;
+    color: #555;
+}
+
+.sidebar {
+    display: block;
+    height: 100%;
+    position: absolute;
+    background-color: $base-color-dark;
+    width: 212px;
+    left: 0;
+    top: 0;
+    z-index: 15;
+
+    @extend %clearfix;
+}
+
+.sidebar-wrp {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar-nav {
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: -46px;
+        padding: 10px 14px 6px;
+        background-color: $base-color-dark;
+
+         > svg {
+            width: 18px;
+            height: 15px;
+
+            > path {
+                fill: $accent-color;
+            }
+        }
+    }
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -162,7 +233,6 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
 }
 
 .page-heading {
