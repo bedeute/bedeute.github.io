@@ -6781,6 +6781,17 @@ body {
 .spacing {
   height: 50px;
 }
+.page-header {
+  border-bottom-width: 2px;
+}
+.page-header > h1 {
+  font-size: 50px;
+  line-height: 38px;
+}
+.page-header > h1 > small {
+  font-size: 28px;
+  font-weight: 300;
+}
 .separator {
   margin-bottom: 10px;
   position: relative;
@@ -6968,7 +6979,7 @@ body {
 /* Header
    ========================================================================== */
 .header.landing-page {
-  background: #111 url(/images/header-bg.jpg) top center;
+  background: #111 url(../images/header-bg.jpg) top center;
   -o-background-size: cover;
      background-size: cover;
   height: 430px;
@@ -6987,6 +6998,7 @@ body {
   margin: 0;
 }
 .top-tiny-navbar {
+  background-color: #f9f9f9;
   height: 32px;
   padding: 12px 0;
 }
@@ -7002,10 +7014,6 @@ body {
 }
 .landing-page .top-tiny-navbar > .container > .list-inline > li > a {
   color: #fff;
-}
-.top-navbar {
-  border-bottom: 1px solid #eee;
-  box-shadow: 0 1px #fff;
 }
 .landing-page .top-navbar {
   background-image: -webkit-linear-gradient(top, #111 0%, transparent 100%);
@@ -7081,7 +7089,7 @@ body {
   font-size: 12px;
 }
 .showcase-pic {
-  z-index: 20;
+  z-index: 21;
 }
 .showcase-body {
   padding-top: 20px;
@@ -7132,6 +7140,36 @@ body {
   content: '';
   right: -22px;
   top: 23px;
+}
+#navbar-light {
+  -webkit-transition: all .26s ease;
+       -o-transition: all .26s ease;
+          transition: all .26s ease;
+  z-index: 22;
+}
+#navbar-light.affix-top {
+  position: fixed;
+  top: -160px;
+  width: 100%;
+}
+#navbar-light.affix {
+  top: 0;
+  width: 100%;
+}
+#navbar-light.affix > hr {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #eee;
+  margin: 0;
+}
+#navbar-light.affix > .top-navbar {
+  background-image: -webkit-linear-gradient(top, #f9f9f9 60%, transparent 100%);
+  background-image:      -o-linear-gradient(top, #f9f9f9 60%, transparent 100%);
+  background-image:         linear-gradient(to bottom, #f9f9f9 60%, transparent 100%);
+  background-repeat: repeat-x;
+  height: 100px;
+  z-index: 23;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff9f9f9', endColorstr='#00000000', GradientType=0);
 }
 /* Footer
    ========================================================================== */

@@ -8,7 +8,13 @@
   'use strict';
 
   $(function() {
+		$('#navbar-light').affix({
+		    offset: {
+		      top:450
+		    }
+		});
 
   });
 
 })(jQuery);
+
